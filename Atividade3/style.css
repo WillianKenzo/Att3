@@ -4,4 +4,207 @@ body{
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
+    background-color: #f0f4f8;
+    
 }
+p{
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid #FFC0CB;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#jogosfamosos-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#jogosfranquias-container{
+    display: grid;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #1D4ED8 0%,
+    #B91C1C 55%,
+    #172033 100%);
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #718096 0%,
+    #263746 50%,
+    #101820 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #9BAF82 0%,
+    #36513D 50%,
+    #101820 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #C49A62 0%,
+    #315B83 50%,
+    #172033 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #873D48 0%,
+    #34243D 50%,
+    #101014 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #42C6D4 0%,
+    #087E8B 50%,
+    #063B46 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #D58A61 0%,
+    #6B2737 50%,
+    #171B2D 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle,
+    #A6A39A 0%,
+    #42494D 50%,
+    #17191C 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+li{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+#jogosfamosos{
+    background-color: #e8f0fe;
+    
+}
+#jogosfranquias{
+    background-color: #e0eaf8;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+a{
+    align-items: center;
+}
+.link{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1D4ED8;
+    text-decoration: none;
+    text-shadow: 1px 1px red;
+}
+
+#caracteristicas{
+    background-color: #936ad4;
+    padding: 20px;
+}
+#caracteristicas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #000000;
+}
+h1{
+    font-size: 36px;
+    
+}
+h2{
+    font-size: 28px;
+}
+
