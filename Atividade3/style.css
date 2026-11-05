@@ -225,11 +225,10 @@ li {
 }
 
 #jogosfranquias-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    padding: 20px;
 }
 
 h1,
