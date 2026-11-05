@@ -53,6 +53,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card2{
     display: flex;
@@ -68,6 +71,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card3{
     display: flex;
@@ -83,6 +89,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card4{
     display: flex;
@@ -98,6 +107,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card5{
     display: flex;
@@ -113,6 +125,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card6{
     display: flex;
@@ -128,6 +143,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card7{
     display: flex;
@@ -143,6 +161,9 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 .card8{
     display: flex;
@@ -158,6 +179,15 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+.card8:hover, .card7:hover,.card6:hover, .card5:hover, .card4:hover, .card3:hover, .card2:hover, .card1:hover{
+    transform: scale(1.03);
+    border: 1px solid #0070d1;
+    box-shadow: 0 0 15px rgba(0, 112, 209, 0.5);
+
 }
 li{
     font-size: 18px;
@@ -207,4 +237,16 @@ h1{
 h2{
     font-size: 28px;
 }
+#studios-banner {
+    background-image: url('img/studios.jpg');
+    background-size: cover;
+}
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 112, 209, 0.25);
+    
+}
