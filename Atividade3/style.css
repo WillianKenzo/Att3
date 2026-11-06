@@ -370,7 +370,15 @@ section:hover {
     list-style: none;
 }
 
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9 {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s ease;
@@ -378,8 +386,15 @@ section:hover {
     -webkit-backface-visibility: hidden;
 }
 
-.card1::before, .card2::before, .card3::before, .card4::before, .card5::before,
-.card6::before, .card7::before, .card8::before, .card9::before {
+.card1::before,
+.card2::before,
+.card3::before,
+.card4::before,
+.card5::before,
+.card6::before,
+.card7::before,
+.card8::before,
+.card9::before {
     content: "";
     position: absolute;
     top: 0;
@@ -416,8 +431,8 @@ section:hover {
     background-color: #004494;
 }
 
-#jogosfamosos-container li:hover > div,
-#jogosfranquias-container li:hover > div {
+#jogosfamosos-container li:hover>div,
+#jogosfranquias-container li:hover>div {
     transform: rotateY(180deg) scale(1.02);
     border: 1px solid #0070d1;
     box-shadow: 0 0 15px rgba(0, 112, 209, 0.5);
